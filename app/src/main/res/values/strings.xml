@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Crypt Message</string>
+    <string name="crypt_message">Crypt Message</string>
+    <string name="encryption">Encryption</string>
+    <string name="decryption">Decryption</string>
+    <string name="encrypter">Encrypter</string>
+    <string name="enter_your_text_here">Enter Your Text Here</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="your_encrypted_text_here">Your encrypted text here :</string>
+    <string name="copy_text">Copy Text</string>
+    <string name="decrypted">Decrypted</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="your_decrypted_text_is_here">Your decrypted text is here :</string>
+</resources>
