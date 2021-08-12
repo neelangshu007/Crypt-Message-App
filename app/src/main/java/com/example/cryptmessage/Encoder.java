@@ -1,10 +1,12 @@
 package com.example.cryptmessage;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -35,9 +37,19 @@ public class Encoder extends AppCompatActivity {
         clipboardManager = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 
         encoderEncryptButton.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onClick(View view) {
+                base64Encryption(view);
+            }
+        });
+
+        encoderEncryptButton.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                Toast.makeText(getApplicationContext(), "Advance Encryption Unlocked", Toast.LENGTH_SHORT).show();
                 encryption(view);
+                return true;
             }
         });
 
@@ -56,6 +68,19 @@ public class Encoder extends AppCompatActivity {
         // pass the string to the encryption
         // algorithm and get the encrypted code
         String encryptedString = Encode.encode(editTextTemp);
+
+        // set the code to the edit text
+        encoderTextView.setText(encryptedString);
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    public void base64Encryption(View view){
+        // get text from edittext
+        String editTextTemp = encoderEditText.getText().toString();
+
+        // pass the string to the Basic base64 encryption
+        // algorithm and get the encrypted code
+        String encryptedString = Base64Encode.base64Encode(editTextTemp);
 
         // set the code to the edit text
         encoderTextView.setText(encryptedString);

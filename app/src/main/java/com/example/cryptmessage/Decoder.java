@@ -1,10 +1,12 @@
 package com.example.cryptmessage;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -18,7 +20,7 @@ public class Decoder extends AppCompatActivity {
     EditText decoderEditText;
     TextView decoderTextView;
     ClipboardManager clipboardManager;
-    Button decoderEncryptButton;
+    Button decoderDecryptButton;
     Button decoderCopyButton;
 
     @Override
@@ -29,16 +31,26 @@ public class Decoder extends AppCompatActivity {
         // link the edittext and textview with its id
         decoderEditText = findViewById(R.id.decryptEditText);
         decoderTextView = findViewById(R.id.decryptTextView);
-        decoderEncryptButton = findViewById(R.id.decryptBtn);
+        decoderDecryptButton = findViewById(R.id.decryptBtn);
         decoderCopyButton = findViewById(R.id.decryptCopyBtn);
 
         // create a clipboard manager variable to copy text
         clipboardManager = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 
-        decoderEncryptButton.setOnClickListener(new View.OnClickListener() {
+        decoderDecryptButton.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onClick(View view) {
+                base64Decryption(view);
+            }
+        });
+
+        decoderDecryptButton.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                Toast.makeText(getApplicationContext(), "Advance Decryption Unlocked", Toast.LENGTH_SHORT).show();
                 decryption(view);
+                return true;
             }
         });
 
@@ -58,6 +70,21 @@ public class Decoder extends AppCompatActivity {
         // pass the string to the decryption algorithm
         // and get the decrypted text
         String decryptedString = Decode.decode(editTextTemp);
+
+        // set the text to the edit text for display
+        decoderTextView.setText(decryptedString);
+        Log.e("decryption", "text - " + decryptedString);
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    public void base64Decryption(View view){
+        // get code from edittext
+        String editTextTemp = decoderEditText.getText().toString();
+        Log.e("decryption", "text - " + editTextTemp);
+
+        // pass the string to the Basic Base64 decryption algorithm
+        // and get the decrypted text
+        String decryptedString = Base64Decode.base64Decode(editTextTemp);
 
         // set the text to the edit text for display
         decoderTextView.setText(decryptedString);
