@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0F9D58"
+    android:background="#43DA04"
     android:orientation="vertical"
     tools:context=".Decoder">
 
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/decrypted"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="40sp"
             android:textStyle="bold" />
 
@@ -56,7 +56,7 @@
                 android:layout_gravity="left"
                 android:layout_marginTop="5dp"
                 android:text="@string/enter_your_text_here"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -75,9 +75,9 @@
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#000000"
+                android:background="#09B104"
                 android:text="@string/decrypt"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -114,7 +114,8 @@
                 android:layout_gravity="left"
                 android:layout_marginTop="5dp"
                 android:text="@string/your_decrypted_text_is_here"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
+                android:textStyle="bold"
                 android:textSize="20sp" />
 
             <TextView
@@ -142,9 +143,9 @@
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#000000"
+                android:background="#09B104"
                 android:text="@string/copy_text"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

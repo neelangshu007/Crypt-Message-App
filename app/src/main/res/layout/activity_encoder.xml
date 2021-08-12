@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0F9D58"
+    android:background="#FF0000"
     android:orientation="vertical"
     tools:context=".Encoder">
 
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/encrypter"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="40sp"
             android:textStyle="bold" />
 
@@ -62,7 +62,7 @@
                 android:layout_gravity="left"
                 android:layout_marginTop="5dp"
                 android:text="@string/enter_your_text_here"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -82,9 +82,9 @@
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#000000"
+                android:background="#BD0404"
                 android:text="@string/encrypt"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
 
@@ -121,7 +121,7 @@
                 android:layout_gravity="left"
                 android:layout_marginTop="5dp"
                 android:text="@string/your_encrypted_text_here"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
 
@@ -150,9 +150,9 @@
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#000000"
+                android:background="#BD0404"
                 android:text="@string/copy_text"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
 
