@@ -11,12 +11,14 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Decoder"
+            android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Encoder"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

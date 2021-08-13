@@ -82,7 +82,8 @@
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#BD0404"
+                android:background="@drawable/button_back"
+                android:backgroundTint="#BD0404"
                 android:text="@string/encrypt"
                 android:textColor="#000000"
                 android:textSize="20sp"
@@ -150,11 +151,12 @@
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#BD0404"
+                android:background="@drawable/button_back"
+                android:backgroundTint="#BD0404"
                 android:text="@string/copy_text"
                 android:textColor="#000000"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
