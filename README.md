@@ -10,11 +10,11 @@ Decryption: It is the process of transforming data or information from an unread
 ## Installation
 Clone this repository and import into **Android Studio**
 ```bash
-git clone git@github.com:wolox/<reponame>.git
+git clone https://github.com/neelangshu007/Crypt-Message-App.git
 ```
 
 
-# # Crypt Message App Screenshots
+## Crypt Message App Screenshots
 ![](screenshots/ss1.jpeg)
 ![](screenshots/ss2.jpeg)
 ![](screenshots/ss3.jpeg)
