@@ -7,12 +7,12 @@ Encryption: It is the process of transforming a readable message into an unreada
 Decryption: It is the process of transforming data or information from an unreadable to readable form. To do so we use decoding algorithms.
 
 #  Crypt Message App Screenshots
-![](Screenshots/ss1.jpeg)
-![](Screenshots/ss2.jpeg)
-![](Screenshots/ss3.jpeg)
-![](Screenshots/ss4.jpeg)
-![](Screenshots/ss5.jpeg)
-![](Screenshots/ss6.jpeg)
-![](Screenshots/ss7.jpeg)
-![](Screenshots/ss8.jpeg)
-![](Screenshots/ss9.jpeg)
+![](screenshots/ss1.jpeg)
+![](screenshots/ss2.jpeg)
+![](screenshots/ss3.jpeg)
+![](screenshots/ss4.jpeg)
+![](screenshots/ss5.jpeg)
+![](screenshots/ss6.jpeg)
+![](screenshots/ss7.jpeg)
+![](screenshots/ss8.jpeg)
+![](screenshots/ss9.jpeg)
