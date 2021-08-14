@@ -6,9 +6,10 @@ Encryption: It is the process of transforming a readable message into an unreada
 
 Decryption: It is the process of transforming data or information from an unreadable to readable form. To do so we use decoding algorithms
 
-# Custom Feature
-* On Long click on 'ENCRYPT BUTTON' in 'ENCRYPTION Activity' a custom encrytption algorithm will be used in the backend to change your text into binary code
-* And to DECRYPT the binary code into normal text you have to Long click on the 'DECRYPT BUTTON' in "DECRYPTION Activity'
+
+## Custom Feature
+* On Long click on 'ENCRYPT BUTTON' in 'ENCRYPTION Activity' a custom encrytption algorithm will be used in the backend to change your text into binary code which will be more secure
+* And to DECRYPT that binary code into normal text you have to Long click on the 'DECRYPT BUTTON' in "DECRYPTION Activity'
 
 
 ## Pre-requisites
