@@ -6,7 +6,15 @@ Encryption: It is the process of transforming a readable message into an unreada
 
 Decryption: It is the process of transforming data or information from an unreadable to readable form. To do so we use decoding algorithms.
 
-#  Crypt Message App Screenshots
+
+## Installation
+Clone this repository and import into **Android Studio**
+```bash
+git clone git@github.com:wolox/<reponame>.git
+```
+
+
+# # Crypt Message App Screenshots
 ![](screenshots/ss1.jpeg)
 ![](screenshots/ss2.jpeg)
 ![](screenshots/ss3.jpeg)
