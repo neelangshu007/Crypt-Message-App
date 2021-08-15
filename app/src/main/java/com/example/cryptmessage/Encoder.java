@@ -33,8 +33,8 @@ public class Encoder extends AppCompatActivity {
         // Changing Status Bar Color
         Window window = getWindow();
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-        window.setStatusBarColor(Color.parseColor("#FF0000"));
-        window.setNavigationBarColor(Color.parseColor("#FF0000"));
+        window.setStatusBarColor(Color.parseColor("#9104AA"));
+        window.setNavigationBarColor(Color.parseColor("#9104AA"));
 
         // link the edittext and textview with its id
         encoderEditText = findViewById(R.id.encryptEditText);

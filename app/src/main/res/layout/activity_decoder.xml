@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#43DA04"
+    android:background="#9104AA"
     android:orientation="vertical"
     tools:context=".Decoder">
 
@@ -76,9 +76,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/button_back"
-                android:backgroundTint="#09B104"
+                android:backgroundTint="#232222"
                 android:text="@string/decrypt"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -145,9 +145,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/button_back"
-                android:backgroundTint="#09B104"
+                android:backgroundTint="#232222"
                 android:text="@string/copy_text"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

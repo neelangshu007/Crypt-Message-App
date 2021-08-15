@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         // Changing Status Bar Color
         Window window = getWindow();
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-        window.setStatusBarColor(Color.parseColor("#FF8400"));
-        window.setNavigationBarColor(Color.parseColor("#FF8400"));
+        window.setStatusBarColor(Color.parseColor("#9104AA"));
+        window.setNavigationBarColor(Color.parseColor("#9104AA"));
 
         // link both the button variables with its id
         Button encryptionButton = findViewById(R.id.encryptButton);

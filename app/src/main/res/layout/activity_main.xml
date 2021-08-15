@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF8400"
+    android:background="#9104AA"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -44,9 +44,9 @@
             android:layout_gravity="center"
             android:layout_margin="50dp"
             android:background="@drawable/button_back"
-            android:backgroundTint="#CF5C04"
+            android:backgroundTint="#232222"
             android:text="@string/encryption"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="25sp"
             android:textStyle="bold"/>
 
@@ -57,9 +57,9 @@
             android:layout_gravity="center"
             android:layout_margin="50dp"
             android:background="@drawable/button_back"
-            android:backgroundTint="#CF5C04"
+            android:backgroundTint="#232222"
             android:text="@string/decryption"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="25sp"
             android:textStyle="bold"/>
 
